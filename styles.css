@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+#carouselExampleIndicators img {
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+
+
+.title {
+    text-align: center;
+    margin: 50px;
+}
+
+.title:hover {
+    background-color: gold;
+}
+
+#team .row {
+    margin: 15px;
+}
+
+#team img {
+    width: 150px;
+}
+
+#second-navbar {
+    background-color: #dde;
+    display: flex;
+}
+
+#second-navbar a {
+    display: flex;
+    height: 50px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#second-navbar a:hover {
+    background-color: gold
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #dde;
+}
+
+footer a {
+    margin: 5px;
+}
+
+#go-to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 50%;
+}
