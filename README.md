@@ -1,5 +1,4 @@
-# mock
-mock webpage CFG
+# mock webpage CFG
 
 # Hi Girls! Welcome
 
